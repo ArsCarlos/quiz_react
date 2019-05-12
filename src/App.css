@@ -36,12 +36,38 @@
   margin: 10px auto;
   display: flex;
   justify-content: center;
-
 }
+
 .container > div {
   margin: 0 20px;
 }
 
 .selected {
   background-color: #ccc;
+}
+
+.timeline {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline > div {
+  /* width: 100px; */
+  height: 20px;
+  padding: 20px 10px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.correct {
+  background-color: #61dafb;
+}
+
+.wrong {
+  background-color: #fb617b;
+}
+
+.normal {
+  background-color: #bedeff;
 }

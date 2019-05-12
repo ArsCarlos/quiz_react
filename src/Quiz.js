@@ -1,6 +1,7 @@
 import React from 'react';
 import Question from './Question';
 import Awnser from './Awnser';
+import Timeline from './Timeline';
 
 import questions from './data.json'
 
@@ -27,6 +28,7 @@ const Quiz = () => {
         // Go to next
         if (currentQuestion + 1 >= questions.length) {
             alert("Finished")
+            setAwnsers([])
             return setCurrentQuestion(0)
         }
         return setCurrentQuestion(currentQuestion + 1)
@@ -42,19 +44,27 @@ const Quiz = () => {
     }
 
   return (
-    <div className="container">
-        <Question 
-            text={text} 
-            title={title} 
-            listOptions={listOptions}
-            onSelect={onSelect}
-            nextQuestion={nextQuestion}
+    <div>
+        <div className="container">
+            <Question 
+                text={text} 
+                title={title} 
+                listOptions={listOptions}
+                onSelect={onSelect}
+                nextQuestion={nextQuestion}
+            />
+
+            <Awnser
+                tip={tip}
+                isCorrect={isCorrect}
+            />
+        </div>
+
+        <Timeline 
+            questions={questions} 
+            awnsers={awnsers} 
         />
 
-        <Awnser
-            tip={tip}
-            isCorrect={isCorrect}
-        />
     </div>
   );
 }
