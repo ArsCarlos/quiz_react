@@ -4,7 +4,7 @@
         "text": "Question bla bla ",
         "year": "2019",
         "tip": "My tip 1",
-        "currenctAwnser": 2,
+        "correctAwnser": 2,
         "listOptions": [
             { "option": "bla1" },
             { "option": "bla2" },
@@ -17,7 +17,7 @@
         "text": "Question bla bla asd",
         "year": "2019",
         "tip": "My tip 2",
-        "currenctAwnser": 2,
+        "correctAwnser": 2,
         "listOptions": [
             { "option": "asdasd1" },
             { "option": "asdasd2" },
