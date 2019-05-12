@@ -1,19 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Question from './Question';
+import Quiz from './Quiz';
 
 function App() {
   return (
     <div className="App">
 
-      <div>
-
-        <Question />
-        
-        <div className="awnser"></div>
-
-      </div>
+      <Quiz />
 
     </div>
   );

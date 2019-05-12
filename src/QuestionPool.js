@@ -4,7 +4,7 @@ const generateLetterOption = index => (index + 10).toString(36)
 
 const QuestionPool = ({ questionList, nextQuestion }) => {
 
-  const [selected, setSelected] = React.useState(null)
+  const [selected, setSelected] = React.useState(NaN)
 
   return (
     <div className="question-pool">
@@ -19,7 +19,7 @@ const QuestionPool = ({ questionList, nextQuestion }) => {
               onClick={() => setSelected(index)} 
             >
               <p>
-                {generateLetterOption()}. {option}
+                {generateLetterOption(index)}. {option}
               </p>
             </div>
           )
@@ -27,7 +27,7 @@ const QuestionPool = ({ questionList, nextQuestion }) => {
       </div>
 
       {/* next button */}
-      <button onClick={() => nextQuestion(selected)}>
+      <button onClick={() => { setSelected(NaN); nextQuestion(selected) }}>
         Next
       </button>
 

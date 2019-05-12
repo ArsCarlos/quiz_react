@@ -3,6 +3,7 @@
         "title": "teste",
         "text": "Question bla bla ",
         "year": "2019",
+        "tip": "My tip 1",
         "currenctAwnser": 2,
         "listOptions": [
             { "option": "bla1" },
@@ -15,6 +16,7 @@
         "title": "teste1",
         "text": "Question bla bla asd",
         "year": "2019",
+        "tip": "My tip 2",
         "currenctAwnser": 2,
         "listOptions": [
             { "option": "asdasd1" },
