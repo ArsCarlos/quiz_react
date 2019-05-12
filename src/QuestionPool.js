@@ -2,9 +2,9 @@ import React from 'react';
 
 const generateLetterOption = index => (index + 10).toString(36)
 
-const QuestionPool = ({ questionList, nextQuestion }) => {
+const QuestionPool = ({ questionList, nextQuestion, onSelect }) => {
 
-  const [selected, setSelected] = React.useState(NaN)
+  const [selected, setSelected] = React.useState(null)
 
   return (
     <div className="question-pool">
@@ -16,7 +16,11 @@ const QuestionPool = ({ questionList, nextQuestion }) => {
             <div 
               key={index}
               className={`btn ${selected === index ? 'selected' : '' }`} 
-              onClick={() => setSelected(index)} 
+              onClick={() => {
+                if (selected === null) {
+                  setSelected(index); onSelect(index)}
+                }
+              } 
             >
               <p>
                 {generateLetterOption(index)}. {option}
@@ -27,7 +31,7 @@ const QuestionPool = ({ questionList, nextQuestion }) => {
       </div>
 
       {/* next button */}
-      <button onClick={() => { setSelected(NaN); nextQuestion(selected) }}>
+      <button disabled={selected === null} onClick={() => { nextQuestion(selected); setSelected(null) }}>
         Next
       </button>
 

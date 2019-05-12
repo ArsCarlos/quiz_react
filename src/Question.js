@@ -5,6 +5,7 @@ const Question = ({
     title,
     text,
     listOptions,
+    onSelect,
     nextQuestion
 }) => (
     <div className="question">
@@ -13,7 +14,7 @@ const Question = ({
         
         <div> {text} </div>
         
-        <QuestionPool questionList={listOptions} nextQuestion={nextQuestion} />
+        <QuestionPool questionList={listOptions} nextQuestion={nextQuestion} onSelect={onSelect} />
     </div>
 );
 
