@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+
+}
+.container > div {
+  margin: 0 20px;
+}
+
+.selected {
+  background-color: #ccc;
+}
