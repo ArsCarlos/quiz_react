@@ -1,0 +1,19 @@
+.coluna{
+    flex: 1
+}
+
+.bgcolor{
+    /* background-color: #E8F2E9; */
+    /* border: 2px solid black; */
+    /* border-radius: 5%; */
+    padding: 30px;
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center
+}
+
+#question{
+    text-align: center
+}

@@ -31,6 +31,11 @@ const Quiz = () => {
             setAwnsers([])
             return setCurrentQuestion(0)
         }
+
+        let [...x] = document.querySelectorAll('.question-btn');
+        x.map((button) => {
+                button.disabled = false;
+        })
         return setCurrentQuestion(currentQuestion + 1)
     }
 
@@ -41,23 +46,28 @@ const Quiz = () => {
             awnser
         ])
         setIsCorrect(awnser)
+        let [...x] = document.querySelectorAll('.question-btn');
+        x.map( (button, idx) => { 
+            if (idx !== index)
+                button.disabled='disabled'
+        })
     }
 
   return (
     <div>
         <div className="container">
-            <Question 
-                text={text} 
-                title={title} 
-                listOptions={listOptions}
-                onSelect={onSelect}
-                nextQuestion={nextQuestion}
-            />
-
-            <Awnser
-                tip={tip}
-                isCorrect={isCorrect}
-            />
+                <div>
+                    <h1>TIME QUIZ</h1>
+                    <Question
+                        tip={tip}
+                        isCorrect={isCorrect}
+                        text={text}
+                        title={title}
+                        listOptions={listOptions}
+                        onSelect={onSelect}
+                        nextQuestion={nextQuestion}
+                    />
+                </div>
         </div>
 
         <Timeline 

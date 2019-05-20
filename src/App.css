@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -36,6 +36,8 @@
   margin: 10px auto;
   display: flex;
   justify-content: center;
+  vertical-align: middle;
+
 }
 
 .container > div {
@@ -54,8 +56,8 @@
 
 .timeline > div {
   /* width: 100px; */
-  height: 20px;
-  padding: 20px 10px;
+  /* height: 20px; */
+  padding: 20p 10p;
   margin: 10px;
   border-radius: 50%;
 }
@@ -70,4 +72,13 @@
 
 .normal {
   background-color: #bedeff;
+}
+
+.card-title {
+  font-weight: 100;
+}
+
+.question-btn {
+  width: 100%;
+  margin-bottom: 5px;
 }

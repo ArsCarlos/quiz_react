@@ -6,7 +6,7 @@ const Question = ({
     isCorrect,
 }) => (
     <div className="awnser">
-        <h2>Awnser</h2>
+        <h5 className="card-title">Awnser</h5>
 
         <p><b>Tip: </b>{tip}</p>
         {console.log(isCorrect)}

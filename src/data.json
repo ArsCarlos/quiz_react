@@ -1,171 +1,132 @@
 [
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2009 Música",
+        "text": "Qual desses músicos morreu em 2009?",
+        "year": "2009",
         "tip": "My tip 1",
-        "correctAwnser": 2,
+        "correctAwnser": 0,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Michael Jackson" },
+            { "option": "Amy Winehouse" },
+            { "option": "Kurt Cobain" },
+            { "option": "David Bowie" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
+        "title": "2010 Cinema",
+        "text": "Qual filme com maior bilheteria?",
+        "year": "2010",
+        "tip": "",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "A origem" },
+            { "option": "Harry Potter e as relíquias da morte part 1" },
+            { "option": "toy-story 3" },
+            { "option": "Saga Crepúsculo: Eclipse" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2011 Desastre Natural",
+        "text": "Qual desses acontecimentos choraram o mundo em 2011?",
+        "year": "2011",
         "tip": "My tip 1",
-        "correctAwnser": 2,
+        "correctAwnser": 0,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Tsunami no japão" },
+            { "option": "Furacão Katrina" },
+            { "option": "Tsunami no Haiti" },
+            { "option": "Tsunami no Chile" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2012 Esporte",
+        "text": "onde foi sediada as olimpíadas? ",
+        "year": "2012",
         "tip": "My tip 1",
-        "correctAwnser": 2,
+        "correctAwnser": 3,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Moscou" },
+            { "option": "Rio de Janeiro" },
+            { "option": "Londes" },
+            { "option": "Pequim " }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2013 Política",
+        "text": "O brasil foi marcado por qual evento? ",
+        "year": "2013",
         "tip": "My tip 1",
-        "correctAwnser": 2,
+        "correctAwnser": 1,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Mensalão" },
+            { "option": "Protestos" },
+            { "option": "Lava jato" },
+            { "option": "impeachment" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2014 Esporte",
+        "text": "Quais seleções jogaram a final da copa do mundo? ",
+        "year": "2014",
         "tip": "My tip 1",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Alemanha x Brasil" },
+            { "option": "Brasil x Colômbia" },
+            { "option": "Alemanha x Argentina" },
+            { "option": "Alemana x França" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
+        "title": "2015 CINEMA",
+        "text": "Qual filme com maior bilheteria?",
+        "year": "2015",
         "tip": "My tip 1",
-        "correctAwnser": 2,
+        "correctAwnser": 0,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Star Wars: Episódio VII - O Despertar da Força" },
+            { "option": "Jurassic World" },
+            { "option": "Furious 7" },
+            { "option": "Avengers: Age of Ultron" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
-        "correctAwnser": 2,
+        "title": "2016 Música",
+        "text": "Quem foi o artista mais escutado no Brasil?",
+        "year": "2016",
+        "tip": "Segundo o spotify",
+        "correctAwnser": 3,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "Roberto Carlos" },
+            { "option": "Ivete Sangalo" },
+            { "option": "Anitta" },
+            { "option": "Jorge & Mateus" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
+        "title": "2017 Política",
+        "text": "Qual foi o país a se retirar do acordo de Paris?",
+        "year": "2017",
+        "tip": "acordo define os compromissos globais na luta contra os efeitos das mudanças climáticas.",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
+            { "option": "BRASIL" },
+            { "option": "PARIS" },
+            { "option": "EUA" },
+            { "option": "JAPÃO" }
         ]
     },
     {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
-        "correctAwnser": 2,
+        "title": "2018 Esporte",
+        "text": "Qual foi o resultado da final da copa do mundo?",
+        "year": "2018",
+        "tip": "tip",
+        "correctAwnser": 3,
         "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
-        ]
-    },
-    {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
-        "correctAwnser": 2,
-        "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
-        ]
-    },
-    {
-        "title": "teste",
-        "text": "Question bla bla ",
-        "year": "2019",
-        "tip": "My tip 1",
-        "correctAwnser": 2,
-        "listOptions": [
-            { "option": "bla1" },
-            { "option": "bla2" },
-            { "option": "bla3" },
-            { "option": "bla4" }
-        ]
-    },
-    {
-        "title": "teste1",
-        "text": "Question bla bla asd",
-        "year": "2019",
-        "tip": "My tip 2",
-        "correctAwnser": 2,
-        "listOptions": [
-            { "option": "asdasd1" },
-            { "option": "asdasd2" },
-            { "option": "asdasd3" },
-            { "option": "asdasd4" }
+            { "option": "França 1 x Bélgica 0" },
+            { "option": "França 3 x Bélgica 1" },
+            { "option": "França 3 x Croácia 1" },
+            { "option": "França 4 x Croácia 2" }
         ]
     }
 ]
