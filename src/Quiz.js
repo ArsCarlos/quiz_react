@@ -1,6 +1,5 @@
 import React from 'react';
 import Question from './Question';
-import Awnser from './Awnser';
 import Timeline from './Timeline';
 
 import questions from './data.json'
@@ -32,10 +31,8 @@ const Quiz = () => {
             return setCurrentQuestion(0)
         }
 
-        let [...x] = document.querySelectorAll('.question-btn');
-        x.map((button) => {
-                button.disabled = false;
-        })
+        let [...answers] = document.querySelectorAll('.answers-btn');
+        answers.map((answer) => answer.className = 'answers-btn')
         return setCurrentQuestion(currentQuestion + 1)
     }
 
@@ -46,15 +43,22 @@ const Quiz = () => {
             awnser
         ])
         setIsCorrect(awnser)
-        let [...x] = document.querySelectorAll('.question-btn');
-        x.map( (button, idx) => { 
-            if (idx !== index)
-                button.disabled='disabled'
+        let [...answerButtons] = document.querySelectorAll('.answers-btn');
+        /* const [correct]= answerButtons.filter( (button, idx) => {
+            if (idx === index)
+                 return button;
+            return '';
+        }); */
+        answerButtons.forEach((answer, idx) => {
+            if (idx === index)
+                answer.className = 'answers-btn answers-btn_selected';
+            else
+                answer.className = 'answers-btn disabled-div';
         })
     }
 
   return (
-    <div>
+    <React.Fragment>
         <div className="container">
                 <div>
                     <h1>TIME QUIZ</h1>
@@ -75,7 +79,7 @@ const Quiz = () => {
             awnsers={awnsers} 
         />
 
-    </div>
+    </React.Fragment>
   );
 }
 

@@ -22,9 +22,9 @@ const QuestionPool = ({ questionList, nextQuestion, onSelect, tip, isCorrect }) 
                 }
               } 
             >
-              <button className={'btn btn-outline-dark question-btn'}>
+              <div className='answers-btn'>
                 {generateLetterOption(index)}. {option}
-              </button>
+              </div>
             </div>
           )
         })}
@@ -36,8 +36,12 @@ const QuestionPool = ({ questionList, nextQuestion, onSelect, tip, isCorrect }) 
       />
 
       {/* next button */}
-      <button className="btn btn-success" disabled={selected === null} onClick={() => { nextQuestion(selected); setSelected(null) }}>
-        Next
+      <button 
+        className="btn btn-success" 
+        disabled={selected === null} 
+        onClick={() => { nextQuestion(selected); setSelected(null) }}
+      >
+        Próxima
       </button>
 
     </div>

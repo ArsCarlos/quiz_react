@@ -1,5 +1,4 @@
 import React from 'react';
-import QuestionPool from './QuestionPool';
 
 const Question = ({
     tip,

@@ -20,19 +20,19 @@
         "correctAwnser": 2,
         "listOptions": [
             { "option": "A origem" },
-            { "option": "Harry Potter e as relíquias da morte part 1" },
-            { "option": "toy-story 3" },
+            { "option": "Harry Potter e as Relíquias da Morte Part. 1" },
+            { "option": "Toy-story 3" },
             { "option": "Saga Crepúsculo: Eclipse" }
         ]
     },
     {
         "title": "2011 Desastre Natural",
-        "text": "Qual desses acontecimentos choraram o mundo em 2011?",
+        "text": "Qual desses acontecimentos chocaram o mundo em 2011?",
         "year": "2011",
         "tip": "My tip 1",
         "correctAwnser": 0,
         "listOptions": [
-            { "option": "Tsunami no japão" },
+            { "option": "Tsunami no Japão" },
             { "option": "Furacão Katrina" },
             { "option": "Tsunami no Haiti" },
             { "option": "Tsunami no Chile" }
@@ -40,20 +40,20 @@
     },
     {
         "title": "2012 Esporte",
-        "text": "onde foi sediada as olimpíadas? ",
+        "text": "Onde foi sediada as Olimpíadas? ",
         "year": "2012",
         "tip": "My tip 1",
         "correctAwnser": 3,
         "listOptions": [
             { "option": "Moscou" },
             { "option": "Rio de Janeiro" },
-            { "option": "Londes" },
+            { "option": "Londres" },
             { "option": "Pequim " }
         ]
     },
     {
         "title": "2013 Política",
-        "text": "O brasil foi marcado por qual evento? ",
+        "text": "O Brasil foi marcado por qual evento? ",
         "year": "2013",
         "tip": "My tip 1",
         "correctAwnser": 1,
@@ -61,7 +61,7 @@
             { "option": "Mensalão" },
             { "option": "Protestos" },
             { "option": "Lava jato" },
-            { "option": "impeachment" }
+            { "option": "Impeachment" }
         ]
     },
     {
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "title": "2015 CINEMA",
+        "title": "2015 Cinema",
         "text": "Qual filme com maior bilheteria?",
         "year": "2015",
         "tip": "My tip 1",
@@ -107,13 +107,13 @@
         "title": "2017 Política",
         "text": "Qual foi o país a se retirar do acordo de Paris?",
         "year": "2017",
-        "tip": "acordo define os compromissos globais na luta contra os efeitos das mudanças climáticas.",
+        "tip": "Acordo define os compromissos globais na luta contra os efeitos das mudanças climáticas.",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "BRASIL" },
-            { "option": "PARIS" },
+            { "option": "Brasil" },
+            { "option": "Paris" },
             { "option": "EUA" },
-            { "option": "JAPÃO" }
+            { "option": "Japão" }
         ]
     },
     {
