@@ -3,17 +3,15 @@ import React from 'react';
 const Question = ({
     tip,
     isCorrect,
+    questionList,
+    indexAnswer
 }) => (
     <div className="awnser">
-        <h5 className="card-title">Awnser</h5>
-
-        <p><b>Tip: </b>{tip}</p>
-        {console.log(isCorrect)}
+        <p><b>Dica: </b>{tip}</p>
+        <h5 className="card-title">Resposta</h5>
         {isCorrect === null
             ? null
-            : isCorrect
-                ? "Correto"
-                : "Errado"
+            : questionList[indexAnswer].explanation
         }
 
     </div>

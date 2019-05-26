@@ -3,7 +3,7 @@ html, body, #root, .App {
 }
 
 body{
-  background-color: beige;
+  background-color:rgba(206, 237, 250, 0.767);
 }
 
 .App-link {
@@ -72,7 +72,30 @@ body{
 }
 
 .card {
+  width: 80vh;
   box-shadow: 5px 5px #ddd;
+}
+
+.link, .link:hover {
+  color: white;
+  text-decoration: none;
+}
+.cardWelcome {
+  max-width: 40vh;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.cardResults {
+  width: 60vh;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }
 
 .card-title {
@@ -112,4 +135,24 @@ body{
 
 .btn-success {
   float:right;
+}
+
+.btn-secondary {
+  float:left;
+}
+
+.scoreContainer {
+  background: white;
+  font-family: 'Oswald', sans-serif;
+  color: #CCC;
+  text-shadow: 1px 1px 2px black;
+  width: 100vh;
+}
+.score {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  transform-style: preserve-3d;
+  font-size:90px;
+  text-align: center;
+  line-height: 90px;
 }

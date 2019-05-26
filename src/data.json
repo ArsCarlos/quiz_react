@@ -6,8 +6,8 @@
         "tip": "My tip 1",
         "correctAwnser": 0,
         "listOptions": [
-            { "option": "Michael Jackson" },
-            { "option": "Amy Winehouse" },
+            { "option": "Michael Jackson", "explanation": "Certo: Michael Jackson deixou saudades :(" },
+            { "option": "Amy Winehouse", "explanation": "Errado: Ela morreu em 2010" },
             { "option": "Kurt Cobain" },
             { "option": "David Bowie" }
         ]

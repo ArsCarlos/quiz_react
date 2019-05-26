@@ -9,11 +9,12 @@ const Question = ({
     isCorrect,
     listOptions,
     onSelect,
-    nextQuestion
+    nextQuestion,
+    indexAnswer,
 }) => (
         <div className="card">
             <div className="card-header card-title">
-                {title}
+                <strong>{title}</strong>
             </div>
             <div className="card-body">
                 <h5 className="card-title">{text}</h5>
@@ -23,9 +24,8 @@ const Question = ({
                     onSelect={onSelect} 
                     tip={tip}
                     isCorrect={isCorrect}
+                    indexAnswer={indexAnswer}
                 />
-                {/* <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> */}
-                
             </div>
         </div>
 

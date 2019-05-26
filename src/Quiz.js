@@ -1,13 +1,14 @@
 import React from 'react';
 import Question from './Question';
 import Timeline from './Timeline';
-
+import { withRouter } from 'react-router-dom'
 import questions from './data.json'
 
-const Quiz = () => {
+const Quiz = (props) => {
 
     const [currentQuestion, setCurrentQuestion] = React.useState(0)
     const [isCorrect, setIsCorrect] = React.useState(null)
+    const [indexAnswer, setIndexAnswer] = React.useState(null)
     const [awnsers, setAwnsers] = React.useState([])
     const question = questions[currentQuestion]
 
@@ -16,9 +17,8 @@ const Quiz = () => {
         text,
         tip,
         listOptions,
-        correctAwnser
+        correctAwnser,
     } = question
-
     const nextQuestion = index => {
         // TODO: validate and register awnser
         setIsCorrect(null)
@@ -26,7 +26,10 @@ const Quiz = () => {
         console.log(awnsers)
         // Go to next
         if (currentQuestion + 1 >= questions.length) {
-            alert("Finished")
+            props.history.push({
+                pathname: '/results',
+                state: awnsers
+            })
             setAwnsers([])
             return setCurrentQuestion(0)
         }
@@ -43,12 +46,8 @@ const Quiz = () => {
             awnser
         ])
         setIsCorrect(awnser)
+        setIndexAnswer(index)
         let [...answerButtons] = document.querySelectorAll('.answers-btn');
-        /* const [correct]= answerButtons.filter( (button, idx) => {
-            if (idx === index)
-                 return button;
-            return '';
-        }); */
         answerButtons.forEach((answer, idx) => {
             if (idx === index)
                 answer.className = 'answers-btn answers-btn_selected';
@@ -65,6 +64,7 @@ const Quiz = () => {
                     <Question
                         tip={tip}
                         isCorrect={isCorrect}
+                        indexAnswer={indexAnswer}
                         text={text}
                         title={title}
                         listOptions={listOptions}
@@ -74,7 +74,7 @@ const Quiz = () => {
                 </div>
         </div>
 
-        <Timeline 
+        <Timeline
             questions={questions} 
             awnsers={awnsers} 
         />
@@ -83,4 +83,4 @@ const Quiz = () => {
   );
 }
 
-export default Quiz;
+export default withRouter(Quiz);

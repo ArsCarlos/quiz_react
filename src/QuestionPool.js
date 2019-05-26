@@ -3,7 +3,7 @@ import Awnser from './Awnser';
 
 const generateLetterOption = index => (index + 10).toString(36)
 
-const QuestionPool = ({ questionList, nextQuestion, onSelect, tip, isCorrect }) => {
+const QuestionPool = ({ questionList, nextQuestion, onSelect, tip, isCorrect, indexAnswer }) => {
 
   const [selected, setSelected] = React.useState(null)
 
@@ -31,8 +31,10 @@ const QuestionPool = ({ questionList, nextQuestion, onSelect, tip, isCorrect }) 
       </div>
       <br/>
       <Awnser
+        indexAnswer={indexAnswer}
         tip={tip}
         isCorrect={isCorrect}
+        questionList={questionList}
       />
 
       {/* next button */}
