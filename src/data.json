@@ -3,91 +3,91 @@
         "title": "2009 Música",
         "text": "Qual desses músicos morreu em 2009?",
         "year": "2009",
-        "tip": "My tip 1",
+        "tip": "O médico Conrad Murray foi condenado por homicídio culposo.",
         "correctAwnser": 0,
         "listOptions": [
-            { "option": "Michael Jackson", "explanation": "Certo: Michael Jackson deixou saudades :(" },
-            { "option": "Amy Winehouse", "explanation": "Errado: Ela morreu em 2010" },
-            { "option": "Kurt Cobain" },
-            { "option": "David Bowie" }
+            { "option": "Michael Jackson", "explanation": "Certo: Em 25 de junho de 2009, Michael Joseph Jackson faleceu vítima de intoxicação por propofol e benzodiazepina em sua residência" },
+            { "option": "Amy Winehouse", "explanation": "Errado: A cantora, que lutava contra o uso abusivo de drogas e álcool, foi encontrada morta em sua casa em Londres no dia 23 de julho de 2011." },
+            { "option": "Kurt Cobain", "explanation": "Errado: Em 8 de abril de 1994, Cobain foi encontrado morto em sua casa em Seattle, três dias após a sua morte, vítima do que foi oficialmente considerado um suicídio " },
+            { "option": "David Bowie", "explanation": "Errado: Na noite do dia 10 de janeiro de 2016, dois dias após o seu sexagésimo nono aniversário e o lançamento do álbum Blackstar, Bowie morreu em seu apartamento em Nova York, vítima de câncer de fígado." }
         ]
     },
     {
         "title": "2010 Cinema",
         "text": "Qual filme com maior bilheteria?",
         "year": "2010",
-        "tip": "",
+        "tip": "Único apresentado em 3D.",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "A origem" },
-            { "option": "Harry Potter e as Relíquias da Morte Part. 1" },
-            { "option": "Toy-story 3" },
-            { "option": "Saga Crepúsculo: Eclipse" }
+            { "option": "A origem", "explanation": "Errado: Quarto lugr com Bilheteria Mundial de: 825,4 milhões de dólares" },
+            { "option": "Harry Potter e as Relíquias da Morte Part. 1", "explanation": "Errado: Terceiro lugar com Bilheteria Mundial de: 832 milhões de dólares" },
+            { "option": "Toy-story 3", "explanation": "Certo: Primeiro lugar com Bilheteria Mundial de: 1.063 bilhão de dólares" },
+            { "option": "Saga Crepúsculo: Eclipse", "explanation": "Errado: Sexto lugar com Bilheteria Mundial de: 693,5 milhões de dólares"}
         ]
     },
     {
         "title": "2011 Desastre Natural",
         "text": "Qual desses acontecimentos chocaram o mundo em 2011?",
         "year": "2011",
-        "tip": "My tip 1",
+        "tip": "Gerou uma explosão em uma central nuclear",
         "correctAwnser": 0,
         "listOptions": [
-            { "option": "Tsunami no Japão" },
-            { "option": "Furacão Katrina" },
-            { "option": "Tsunami no Haiti" },
-            { "option": "Tsunami no Chile" }
+            { "option": "Tsunami no Japão", "explanation": "Certo: Sismo e tsunami de Tohoku de 2011 ou sismo e tsunami de Sendai foi um sismo de magnitude de 9,1 MW[5] com epicentro ao largo da costa do Japão ocorrido 11 de março de 2011"},
+            { "option": "Furacão Katrina", "explanation": "Errado:  furacão Katrina foi uma tempestade tropical formar em 23 de agosto de 2005 e dissipada em 31 de agosto de 2005"},
+            { "option": "Tsunami no Haiti", "explanation": "Errado: O sismo do Haiti de 2010 foi um terremoto catastrófico que teve seu epicentro na parte oriental da península de Tiburon, a cerca de 25 km da capital haitiana."},
+            { "option": "Tsunami no Chile", "explanation": "Errado: O sismo do Chile de 2010 ocorreu ao longo da costa da Região de Maule no Chile em 27 de fevereiro de 2010"}
         ]
     },
     {
         "title": "2012 Esporte",
         "text": "Onde foi sediada as Olimpíadas? ",
         "year": "2012",
-        "tip": "My tip 1",
-        "correctAwnser": 3,
+        "tip": "Comitê Organizador anunciou o mascote dos Jogos: Wenlock, que representa uma gota de aço polido.",
+        "correctAwnser": 2,
         "listOptions": [
-            { "option": "Moscou" },
-            { "option": "Rio de Janeiro" },
-            { "option": "Londres" },
-            { "option": "Pequim " }
+            { "option": "Moscou", "explanation": "Errado: Jogos Olímpicos de Verão ocorreram 1980"},
+            { "option": "Rio de Janeiro", "explanation": "Errado: Jogos Olímpicos do Rio ocorreram em 2016"},
+            { "option": "Londres", "explanation": "Certo: Jogos Olímpicos de Verão ocorreu em 2012"},
+            { "option": "Pequim ", "explanation": "Errado: A Olimpíadas de Pequim ocorreu em 2008"}
         ]
     },
     {
         "title": "2013 Política",
         "text": "O Brasil foi marcado por qual evento? ",
         "year": "2013",
-        "tip": "My tip 1",
+        "tip": "Junho ou jornadas de junho",
         "correctAwnser": 1,
         "listOptions": [
-            { "option": "Mensalão" },
-            { "option": "Protestos" },
-            { "option": "Lava jato" },
-            { "option": "Impeachment" }
+            { "option": "Mensalão", "explanation": "Errado: Mensalão é o nome dado ao escândalo de corrupção política mediante compra de votos de parlamentares no Congresso Nacional do Brasil, que ocorreu entre 2005 e 2006."},
+            { "option": "Protestos", "explanation": "Certo: Os protestos no Brasil em 2013, também conhecidos como Manifestações dos 20 centavos."},
+            { "option": "Lava jato", "explanation": "Errado: A Operação Lava Jato é um conjunto de investigações em andamento pela Polícia Federal do Brasil iniciada em 17 de março de 2014"},
+            { "option": "Impeachment", "explanation": "Errado: O impeachment de Dilma Rousseff de 2 de dez de 2015 – 31 de ago de 2016"}
         ]
     },
     {
         "title": "2014 Esporte",
         "text": "Quais seleções jogaram a final da copa do mundo? ",
         "year": "2014",
-        "tip": "My tip 1",
+        "tip": "Foi realizada em 13 de julho no estádio Maracanã.",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "Alemanha x Brasil" },
-            { "option": "Brasil x Colômbia" },
-            { "option": "Alemanha x Argentina" },
-            { "option": "Alemana x França" }
+            { "option": "Alemanha x Brasil", "explanation": "Errado: Semifinal. Alemanha 7 x Brasil 1."},
+            { "option": "Brasil x Colômbia", "explanation": "Errado: Quartas de final. Brasil 2 x Colômbia 1."},
+            { "option": "Alemanha x Argentina", "explanation": "Certo: Alemanha 1 x Argentina 0." },
+            { "option": "Alemanha x França", "explanation": "Errado: Quartas de final. Alemanha 1 x França 0"}
         ]
     },
     {
         "title": "2015 Cinema",
         "text": "Qual filme com maior bilheteria?",
         "year": "2015",
-        "tip": "My tip 1",
+        "tip": "Dirigido por  J.J. Abrams.",
         "correctAwnser": 0,
         "listOptions": [
-            { "option": "Star Wars: Episódio VII - O Despertar da Força" },
-            { "option": "Jurassic World" },
-            { "option": "Furious 7" },
-            { "option": "Avengers: Age of Ultron" }
+            { "option": "Star Wars: Episódio VII - O Despertar da Força", "explanation": "Certo: Primeiro lugar com Receita mundial: $ 2.068.223.624,00"},
+            { "option": "Jurassic World", "explanation": "Errado: Segundo lugar com Receita mundial: $ 1.670.400.637,00 "},
+            { "option": "Velozes e Furiosos 7", "explanation": "Errado: Terceiro lugar com  Receita mundial: $ 1.516.045.911,00"},
+            { "option": "Avengers: Age of Ultron", "explanation": "Errado: 3 - Quarto lugar com  Receita mundial: $ 1.405.403.694,00 "}
         ]
     },
     {
@@ -97,10 +97,10 @@
         "tip": "Segundo o spotify",
         "correctAwnser": 3,
         "listOptions": [
-            { "option": "Roberto Carlos" },
-            { "option": "Ivete Sangalo" },
-            { "option": "Anitta" },
-            { "option": "Jorge & Mateus" }
+            { "option": "Roberto Carlos", "explanation": "Não aparece na lista." },
+            { "option": "Ivete Sangalo", "explanation": "Errado: Não aparece na lista."},
+            { "option": "Anitta", "explanation": "Errado: Quarta mais escutada entre as artistas femininas."},
+            { "option": "Jorge & Mateus", "explanation": "Certo: Primeiro lugar na avaliação de top 5 artistas do spotif.y"}
         ]
     },
     {
@@ -110,23 +110,23 @@
         "tip": "Acordo define os compromissos globais na luta contra os efeitos das mudanças climáticas.",
         "correctAwnser": 2,
         "listOptions": [
-            { "option": "Brasil" },
-            { "option": "Paris" },
-            { "option": "EUA" },
-            { "option": "Japão" }
+            { "option": "Brasil", "explanation": "Errado: Brasil permanece no acordo de Paris."},
+            { "option": "França", "explanation": "Errado: França permanece no acordo de Paris."},
+            { "option": "EUA", "explanation": "Em 1 de junho de 2017, o Presidente dos Estados Unidos Donald Trump anunciou que o país deixaria toda sua participação no Acordo de Paris sobre mudanças climáticas firmado em 2015."},
+            { "option": "Japão", "explanation": "Errado: Japão permanece no acordo de Paris."}
         ]
     },
     {
         "title": "2018 Esporte",
         "text": "Qual foi o resultado da final da copa do mundo?",
         "year": "2018",
-        "tip": "tip",
+        "tip": "Foi realizada em 15 de julho no Estádio Lujniki em Moscou, na Rússia, com a primeira vez que uma das seleções chegou a final.",
         "correctAwnser": 3,
         "listOptions": [
-            { "option": "França 1 x Bélgica 0" },
-            { "option": "França 3 x Bélgica 1" },
-            { "option": "França 3 x Croácia 1" },
-            { "option": "França 4 x Croácia 2" }
+            { "option": "França 1 x Bélgica 0" , "explanation": "Certo: Semifinal com pontuação correta."},
+            { "option": "França 3 x Bélgica 1" , "explanation": "Certo: Semifinal com pontuação incorreta."},
+            { "option": "França 3 x Croácia 1", "explanation": "Certo: Final com pontuação incorreta."},
+            { "option": "França 4 x Croácia 2", "explanation": "Certo: Final com pontuação correta."}
         ]
     }
 ]

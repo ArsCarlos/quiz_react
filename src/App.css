@@ -38,7 +38,7 @@ body{
   margin: 10px;
   border-radius: 10px;
   transition: transform .5s ease;
-  cursor: pointer;
+  cursor: default;
   border: 1px solid #e5e5e5;
 }
 
@@ -53,11 +53,14 @@ body{
   z-index:-1;
 }
 
-.timeline > div:hover{
+/* .timeline > div:hover{
   transform: scale(1.5, 1.5);
   transition: transform .5s ease;
-}
+} */
 
+.tip {
+  margin-left: 10px;
+}
 
 .correct {
   background-color: greenyellow;

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Quiz from './Quiz';
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Welcome() {
   return (
@@ -12,12 +11,10 @@ function Welcome() {
             </div>
             <div className="card-body">
                 <h3 className="card-title">Time Quiz!!</h3>
-                <p>Time Quiz auigaiurguirghiurghuigrhiugigrhiug
-                aehaiuehaiuehaiuowduwidgwuigw87fgw87fwgf87wgfw87fg87wgf87
-                wufgwufgwufgwf9wgfw98fgw98gfw89gf9wfgw8gf8w9gfw9
-                whfwhfw89fhw98fhwf89whfw89fhw89fhw89fhw89fhw89fh8w9fhw
-                fw89fhw89fhw98f
+                <p>
+                  Seja Bem Vindo!
                 </p>
+                <p> Esse quiz percorre o tempo pelos anos 2009 à 2018 com uma pergunta de um tema variado para cada ano. Existem dicas para cada pergunta. Boa sorte!</p>
                 <button className="btn btn-success">
                   <Link className="link" to='/quiz'>INICIAR</Link>
                 </button>
