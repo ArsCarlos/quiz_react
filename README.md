@@ -19,6 +19,8 @@ O projeto foi baseado na música `Tempos modernos` do Lulu Santos.
 
 Para abrir o projeto, abrir index.html na pasta public.
 
+**FIX 2 jun as 2:14:** Webpack foi testado somente com pagina estatica durante o quiz, ao adicionar uma pagina inicial e de placar e ao gerar o bundle o index.html não foi capaz de rodar todo o projeto. Foi um bom aprendizado sobre webpack e react, mas falho para concluir o objetivo final de gerar um pacote com todas dependências para rodar o projeto localmente e somente com o browser. Esse projeto ainda precisa ser rodado com npm para funcionar. Instruções foram geradas automaticamente(projeto criado com create_react_project) e estão no final desse readme.
+
 ### Personas
 
 O público, ou personas selecionadas ao projeto foram de pessoas curiosas, seja com relação ao mundo ou de atividades que estimulem o raciocínio.
