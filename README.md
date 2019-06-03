@@ -99,7 +99,7 @@ Vamos nos permitir
 
 ## MOLIC
 
-![](img/molic quiz.jpg)
+![](img/molic_quiz.jpg)
 
 
 
