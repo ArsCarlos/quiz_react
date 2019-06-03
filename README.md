@@ -17,6 +17,8 @@ O projeto foi pensado em formato de um quiz, onde cada pergunta é relacionada c
 
 O projeto foi baseado na música `Tempos modernos` do Lulu Santos.
 
+Para abrir o projeto, abrir index.html na pasta public.
+
 ### Personas
 
 O público, ou personas selecionadas ao projeto foram de pessoas curiosas, seja com relação ao mundo ou de atividades que estimulem o raciocínio.
@@ -29,7 +31,7 @@ O público, ou personas selecionadas ao projeto foram de pessoas curiosas, seja 
 
 ### Música
 
-O projeto se baseia na música tempos modernos, tentando passa a idéia do tempo que não volta, mas que ainda olhamos em cima do muro e vemos sempre mais coisa pelo futuro, a cada pergunta, vemos o tempo indo e a cada nova descobrimos algo que está do outro lado do muro.
+Baseado na musica Tempos Modernos de Lulu Santos, o projeto foi pensado em formato de um quiz, onde cada pergunta é relacionada a um ano e alguma informação relevante que aconteceu neste. A ideia é que a cada pergunta respondida resgate sentimento de nostalgia bem como o de conhecimentos, como se cada ano pudesse passar pela cabeça do úsuario participante do quiz.
 
 ```
 Tempos Modernos
